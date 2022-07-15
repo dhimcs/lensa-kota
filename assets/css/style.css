@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+
+
+.none{
+    display: none !important;
+}
+
+.nav{
+    font-family: "Quicksand", sans-serif !important;
+}
+
+.bg-nav{
+    background-color: #b4b4b4    !important;
+}
+a{
+    color: white !important;
+}
+
+.link-secondary{
+    color: #3F4E4F !important;
+}
+
+.btn-link-more{
+    color: #2C3639 !important;
+    text-decoration: underline;
+}
+.card-title{
+    color: #3F4E4F !important;
+}
+
+.text-link{
+    color: #3F4E4F !important;
+    text-decoration: none !important;
+}
+img{
+    padding: 10px;
+    width: 250px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-content{
+    text-align: justify;
+}

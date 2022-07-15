@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <title>Lensa Kota</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body navbar-light bg-nav shadow-sm p-3 ">
+            <div class="container-fluid">
+                <div class="container">
+                    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-0 mb-1">Lensa Kota
+                        <!-- Ul -->
+                        <ul class="nav col-12 col-md mb-2 justify-content-center mb-md-0 pt-1">
+                            <li id="home-link">
+                                <a href="../../" class="home-link nav-link px-3">Home</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle link-dark" role="button" aria-expanded="false" id="navbarDropdown" data-bs-toggle="dropdown">Categories</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a href="#" class="dropdown-item" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sejarah</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teknologi</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                            <li id="about-link">
+                                <a href="../../" class="about-link nav-link px-3">About</a>
+                            </li>
+                            <li id="contact-link">
+                                <a href="../../" class="contact-link nav-link px-3 ">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- Form -->
+                        <form class="d-flex" role="search" action="#">
+                            <input class="form-control rounded-pill" type="search" placeholder="Search..." aria-label="search">
+                            <button class="btn " id="search-button" type="submit"><span class="iconify" data-icon="akar-icons:search" style="color: #f0efef;" data-width="26"></span></button>
+                        </form>
+                    </header>
+                </div>
+            </div>
+        </nav>
+    </div>
+<div class="content">
+    <div class="container">
+        <div class="row py-4 px-2">
+            <h1>Belajar Bahasa Pemrograman: Dart</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dart_programming_language_logo.svg/2560px-Dart_programming_language_logo.svg.png" class="image">
+            <p class="text-content">Dart diperkenalkan pada 2011 dan diresmikan pada konferensi GOTO di Aarhus, Denmark, 10-12 Oktober 2012. Proyek ini didirikan oleh Lars Bak dan Kasper Lund. Dart 1.0 dirilis pada 14 November 2013. Dart adalah object-oriented, class-bassed, garbage-collected language with C-style syntax. Dart turunan dari keluarga bahasa ALGOL, bersama C, Java, C#, JavaScript, dan lainnya.</p>
+            <h3>Karakteristik</h3>
+            <ul>
+                <ol>- Dart menggunakan ekstensi .dart</ol>
+                <ol>- Statically typed: Kita perlu mendefinisikan variabel sebelum bisa menggunakannya.</ol>
+                <ol>- Type inference: tipe data akan otomatis terdeteksi ketika sebuah variabel diinisialisasikan.</ol>
+                <ol>- Multi-paradigm: OOP & Functional.</ol>
+            </ul>
+            <h3>Komentar pada Dart</h3>
+            <code>
+                // Single Line
+                <br>
+                /* <br>
+                Multi Line <br>
+                */
+                <br>
+                /// Coments for documenatation
+            </code>
+            <h3>Environment</h3>
+            <ul>
+                <ol>- Dart SDK</ol>
+                <ol>- Code Editor: VSCode, DartPad, dll.</ol>
+            </ul>
+            <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/NrO0CJCbYLA"></iframe> -->            
+            <h2>Basic</h2>
+            <h4>Tipe Data</h4>
+            <p>Data types atau tipe data adalah sebuah pengklasifikasian data berdasarkan jenis data tersebut.
+            </p>
+            <p>Di Dart sendiri terdapat beberapa tipe data, diantaranya:</p>
+            <ul>
+                <ol>- Numbers(integer, decimal)</ol>
+                <ol>- String atau teks</ol>
+                <ol>- Boolean, yang berupa true dan false</ol>
+                <ol>- Null, yang merepresentasikan tipe data kosong</ol>
+            </ul>
+            <h4>Data Items</h4>
+            <p>Data items adalah tempat penyimpanan tiap atribut dari sebuah entitas            </p>
+            <p>Di Dart juga terdapat banyak tempat menyimpan variabel seperti:</p>
+            <pre>
+- int Digunakan untuk menyimpan tipe data integer/bilangan bulat.
+
+- double Digunakan untuk menyimpan tipe data double/bilangan desimal.
+
+- String Digunakan untuk menyimpan tipe data string/kumpulan character/teks.
+
+- bool Digunakan untuk menyimpan tipe data boolean dengan nilai berisi true dan false.
+
+- var Digunakan untuk menyimpan tipe data apapun.
+
+- const Digunakan untuk menyimpan tipe data apapun dengan nilai konstanta/immutable atau tidak bisa dirubah.
+
+- final Sama seperti const, final bersifat immutable, tapi final tidak wajib variabel harus di inisialiasi.
+
+- dynamic Digunakan untuk menyimpan tipe data secara dinamis ataupun yang tidak kita ketahui
+
+- Symbol Digunakan untuk membuat simbol.
+
+- late Digunakan untuk variable dideklarasikan nanti saja, ketika memang variable tersebut diakses, jika tidak diakses, tidak perlu dideklarasikan.
+
+- num Digunakan untuk menyimpan tipe data angka berupa integer ataupun desimal/double.
+            </pre>
+            <h4>Struktur Data</h4>
+            <p>Data Structure adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
+            </p>
+            <h5>List</h5>
+            <p>List(array pada bahasa pemrograman lain) adalah suatu tipe data terstruktur yang dapat menyimpan banyak data dengan suatu nama yang sama dan menempati tempat di memori yang berurutan serta bertipe data sama atau campuran. List dapat diakses berdasarkan indeksnya.            </p>
+            <code>
+// List menggunakan tipe data sama <br>
+int myVar = [0,1,2,3]; <br>
+// List menggunakan tipe data campuran <br>
+var myVar = []; <br>
+            </code>
+            <h5>Set</h5>
+            <p>Set merupakan sebuah collection yang hanya dapat menyimpan nilai yang unik. Ini akan berguna ketika Anda tidak ingin ada data yang sama alias duplikasi dalam sebuah collection.</p>
+            <code>
+int myVar = {1,2,2,3};  <br>
+var myVar = {1,2,2,3};
+            </code>
+            <h5>Map</h5>
+            <p>Map adalah sebuah struktur data yang dapat menyimpan data dengan format key-value.            </p>
+            <code>
+                var myVar = {<br>
+                    "name": "My Name",<br>
+                    "age" : 20,<br>
+                    "Human": true <br>
+                }
+            </code>
+            <p>String yang berada pada sebelah kiri titik dua (:) adalah sebuah key, sedangkan yang di sebelah kanan merupakan value-nya.</p>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="../../assets/js/bootstrap.js"></script>
+<script src="../../assets/js/script.js"></script>
+</html>
